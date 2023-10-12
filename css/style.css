@@ -1,0 +1,51 @@
+html,
+body {
+  font-size: 18px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #f1f1f1;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+button {
+  background: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+
+button:hover {
+  background: orangered;
+}
+
+button:active {
+  background: #000;
+  color: #fff;
+}
+
+.slider {
+  width: 130px;
+  height: 130px;
+  border: 2px solid black;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.slider-line {
+  height: 130px;
+  width: 520px; /* width-img * 4 */
+  background: orangered;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all 1s ease;
+}
